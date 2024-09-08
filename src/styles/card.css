@@ -1,0 +1,10 @@
+.foto {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.container {
+    border: solid 1px rgb(149, 149, 149);
+    padding: 20px;
+}

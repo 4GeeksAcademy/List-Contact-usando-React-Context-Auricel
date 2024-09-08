@@ -1,0 +1,24 @@
+/* Archivo: formulario.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.fullscreen-background {
+    background-color: #f0f8ff; /* Color de fondo sólido */
+    height: 100vh; /* Altura del viewport */
+    width: 100vw; /* Ancho del viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente para el formulario */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    max-width: 600px; /* Ancho máximo del formulario */
+    width: 100%;
+}
